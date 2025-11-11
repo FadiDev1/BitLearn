@@ -13,7 +13,7 @@ An interactive platformer game that teaches Bitcoin fundamentals through gamepla
 
 ## Play the Game
 
-[**Play BitLearn on GitHub Pages**](https://FadiE98.github.io/BitLearn)
+[**Play BitLearn on GitHub Pages**](https://fadidev1.github.io/BitLearn)
 
 ## What You'll Learn
 
@@ -127,7 +127,6 @@ The game teaches 21 essential Bitcoin concepts including:
    - Your site will be available at the url created.
    - It may take a few minutes to deploy
    - You can check the deployment status in the **Actions** tab
-
 
 ## 📝 File Structure
 
