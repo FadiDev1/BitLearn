@@ -2,7 +2,6 @@
 
 An interactive platformer game that teaches Bitcoin fundamentals through gameplay. Jump on platforms, collect Bitcoin concepts (₿), avoid fiat cash enemies ($), and master 21 essential Bitcoin concepts!
 
-![BitLearn Game]
 
 ## How to Play
 
