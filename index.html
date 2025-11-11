@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitLearn - Learn Bitcoin While You Play!</title>
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="₿ BitLearn - Learn Bitcoin While You Play!">
+    <meta name="twitter:description" content="An interactive game that teaches Bitcoin concepts. Jump on platforms, collect coins, and learn about Bitcoin!">
+    <meta name="twitter:image" content="https://via.placeholder.com/1200x630/f7931a/ffffff?text=BitLearn">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="₿ BitLearn - Learn Bitcoin While You Play!">
+    <meta property="og:description" content="An interactive game that teaches Bitcoin concepts. Jump on platforms, collect coins, and learn about Bitcoin!">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>₿ BitLearn</h1>
+            <div class="stats">
+                <div class="stat">
+                    <span class="label">Score:</span>
+                    <span id="score">0</span>
+                </div>
+                <div class="stat">
+                    <span class="label">Concepts:</span>
+                    <span id="concepts">0</span>
+                </div>
+            </div>
+            <div class="progress-container">
+                <div class="progress-text" id="progressText">0/21 Concepts Collected</div>
+                <div class="progress-bar-wrapper">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+            </div>
+        </header>
+        
+        <canvas id="gameCanvas"></canvas>
+        
+        <div class="info-panel" id="infoPanel">
+            <h3 id="conceptTitle">Welcome!</h3>
+            <img id="conceptImage" src="" alt="" style="display: none; max-width: 200px; margin: 15px auto; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+            <p id="conceptText">Jump and move around using arrow keys or WASD. Press <kbd>Space</kbd> or <kbd>Up</kbd> to jump on platforms! Touch Bitcoin concepts (₿) to learn about them! Watch out for fiat cash enemies ($) - they'll try to block you from reaching the coins!</p>
+            <button id="closeInfo">Continue</button>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.7; text-align: center;">Press <kbd>Enter</kbd> or click to continue</p>
+        </div>
+        
+        <div class="controls">
+            <p>Use <kbd>Arrow Keys</kbd> or <kbd>WASD</kbd> to move. <kbd>Space</kbd> or <kbd>Up</kbd> to jump. Touch Bitcoin concepts (₿) to collect them!</p>
+            <p style="margin-top: 10px; font-size: 0.9em; opacity: 0.8;">Fiat cash enemies will chase and block you - try to get past them!</p>
+        </div>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
+
