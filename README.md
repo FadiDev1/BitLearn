@@ -67,7 +67,7 @@ The game teaches 21 essential Bitcoin concepts including:
    ```
 
 2. **Open in browser**
-   - Simply open `index.html` in your web browser
+   - Simply open `index.html` in your browser
    - Or use a local server:
      ```bash
      # Using Python
