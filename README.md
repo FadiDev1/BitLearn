@@ -14,9 +14,7 @@ An interactive platformer game that teaches Bitcoin fundamentals through gamepla
 
 ## Play the Game
 
-[**Play BitLearn on GitHub Pages**](https://yourusername.github.io/bitlearn)
-
-*(Replace `yourusername` with your GitHub username and `bitlearn` with your repository name)*
+[**Play BitLearn on GitHub Pages**](https://FadiE98.github.io/BitLearn)
 
 ## What You'll Learn
 
@@ -65,8 +63,8 @@ The game teaches 21 essential Bitcoin concepts including:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/bitlearn.git
-   cd bitlearn
+   git clone https://github.com/FadiE98/BitLearn.git
+   cd BitLearn
    ```
 
 2. **Open in browser**
@@ -127,13 +125,9 @@ The game teaches 21 essential Bitcoin concepts including:
    - Click **Save**
 
 4. **Your site is live!**
-   - GitHub will provide a URL like: `https://yourusername.github.io/bitlearn`
+   - Your site will be available at: `https://FadiE98.github.io/BitLearn`
    - It may take a few minutes to deploy
    - You can check the deployment status in the **Actions** tab
-
-5. **Update the README**
-   - Replace `yourusername` and `bitlearn` in this README with your actual values
-   - Update the "Play the Game" link above
 
 
 ## 📝 File Structure
